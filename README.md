@@ -1,6 +1,7 @@
 # ImageAsVideoDemo
 Image->Video 图片合成视频
 
-有一个内存飙升的问题,要注意 使用release.
- 
-crash 的话 在问题代码外包一层 autoreleasepool
+截屏获得图像，合成视频。
+
+添加了队列、线程控制，优化合成效率。
+
