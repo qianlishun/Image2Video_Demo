@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E96DFAD27E48BE30061132D /* PHPhotoLibrary+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E96DFAB27E48BE30061132D /* PHPhotoLibrary+Custom.m */; };
 		6EA9C96D1D9A610A00FC645E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9C96C1D9A610A00FC645E /* main.m */; };
 		6EA9C9701D9A610A00FC645E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9C96F1D9A610A00FC645E /* AppDelegate.m */; };
 		6EA9C9731D9A610A00FC645E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9C9721D9A610A00FC645E /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E96DFAB27E48BE30061132D /* PHPhotoLibrary+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHPhotoLibrary+Custom.m"; sourceTree = "<group>"; };
+		6E96DFAC27E48BE30061132D /* PHPhotoLibrary+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHPhotoLibrary+Custom.h"; sourceTree = "<group>"; };
 		6EA9C9681D9A610A00FC645E /* VideoComposedTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoComposedTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA9C96C1D9A610A00FC645E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EA9C96E1D9A610A00FC645E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		6EA9C96A1D9A610A00FC645E /* VideoComposedTest */ = {
 			isa = PBXGroup;
 			children = (
+				6E96DFAC27E48BE30061132D /* PHPhotoLibrary+Custom.h */,
+				6E96DFAB27E48BE30061132D /* PHPhotoLibrary+Custom.m */,
 				6EA9C96E1D9A610A00FC645E /* AppDelegate.h */,
 				6EA9C96F1D9A610A00FC645E /* AppDelegate.m */,
 				6EA9C9711D9A610A00FC645E /* ViewController.h */,
@@ -110,7 +115,6 @@
 				TargetAttributes = {
 					6EA9C9671D9A610A00FC645E = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 62Z6NU26G9;
 					};
 				};
 			};
@@ -119,6 +123,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -153,6 +158,7 @@
 				6EA9C9731D9A610A00FC645E /* ViewController.m in Sources */,
 				6EA9C9701D9A610A00FC645E /* AppDelegate.m in Sources */,
 				6EA9C96D1D9A610A00FC645E /* main.m in Sources */,
+				6E96DFAD27E48BE30061132D /* PHPhotoLibrary+Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,10 +270,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VideoComposedTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Sonoptek.VideoComposedTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -275,10 +282,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = VideoComposedTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Sonoptek.VideoComposedTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -301,6 +309,7 @@
 				6EA9C9811D9A610A00FC645E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
